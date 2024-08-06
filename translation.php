@@ -5,6 +5,9 @@
  * Author: OjaT
  */
 
+$debug = true;
+if ( $debug == true ) { require( plugin_dir_path( __FILE__ ) . '/debug.php'); } 
+
 require( plugin_dir_path( __FILE__ ) . '/acf/fields.php');
 
 function getStrings() {
